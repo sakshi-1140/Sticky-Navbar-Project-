@@ -1,0 +1,23 @@
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color:black;
+    padding: 50px;
+    font-size: 20px;
+  }
+#navbar {
+    overflow: hidden;
+}
+#navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
